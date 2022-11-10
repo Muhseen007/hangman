@@ -1,0 +1,119 @@
+body {
+    background: rgb(44, 42, 42);
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: rgb(212, 119, 75);
+  }
+  
+  .win {
+    color: white;
+    background-color: green;
+  }
+  
+  .loss {
+    color: white;
+    background-color: rgb(80, 18, 18);
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(121, 51, 51);
+    font-weight: bold;
+    font-family: Codystar;
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: white;
+    font-weight: bold;
+    font-family: Codystar;
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: Codystar;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(156, 131, 131);
+      font-weight: bold;
+      font-family: Codystar;
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid darkred;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+      font-family: Codystar;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 365px;
+      padding-left: 10px;
+      font-family: Codystar;
+  }
+  
+  /* Buttons */
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: darkred;
+    border: solid white 2px;
+    border-radius: 15px;
+    font-family: Codystar;
+    
+  }
+  
+  .button:hover {background-color: rgb(224, 196, 196)}
+  
+  .button:active {
+    background-color: rgb(53, 45, 45);
+    transform: translateY(4px);
+
+  }
+
+  #controls{
+    margin: auto 0;
+    text-align: center;
+    justify-self: center;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    
+  }
+
+  a{
+    color: rgb(175, 33, 33);
+  }
